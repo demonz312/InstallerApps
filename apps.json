@@ -12,7 +12,8 @@
       { "id": "Tor.TorBrowser",      "name": "Tor Browser",     "icon": "🔒" },
       { "id": "LibreWolf.LibreWolf", "name": "LibreWolf",       "icon": "🐺" },
       { "id": "Zen-Team.Zen-Browser",  "name": "Zen Browser",   "icon": "🧘", "isNew": true },
-      { "id": "Alex313031.Thorium",    "name": "Thorium",       "icon": "⚡", "isNew": true }
+      { "id": "Alex313031.Thorium",    "name": "Thorium",       "icon": "⚡", "isNew": true },
+      { "id": "Test.Test",    "name": "Testing app",       "icon": "⚡", "isNew": true }
     ],
     "Development": [
       { "id": "Microsoft.VisualStudioCode",            "name": "Visual Studio Code",  "icon": "💻" },
