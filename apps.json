@@ -1,0 +1,200 @@
+{
+  "version": "1.3.0",
+  "updatedAt": "2026-02-20",
+  "categories": {
+    "Browsers": [
+      { "id": "Google.Chrome",       "name": "Google Chrome",   "icon": "🌐" },
+      { "id": "Mozilla.Firefox",     "name": "Mozilla Firefox", "icon": "🦊" },
+      { "id": "Microsoft.Edge",      "name": "Microsoft Edge",  "icon": "🌊" },
+      { "id": "Brave.Brave",         "name": "Brave",           "icon": "🦁" },
+      { "id": "Opera.Opera",         "name": "Opera",           "icon": "🎭" },
+      { "id": "Vivaldi.Vivaldi",     "name": "Vivaldi",         "icon": "🎨" },
+      { "id": "Tor.TorBrowser",      "name": "Tor Browser",     "icon": "🔒" },
+      { "id": "LibreWolf.LibreWolf", "name": "LibreWolf",       "icon": "🐺" }
+    ],
+    "Development": [
+      { "id": "Microsoft.VisualStudioCode",            "name": "Visual Studio Code",  "icon": "💻" },
+      { "id": "Git.Git",                               "name": "Git",                 "icon": "📦" },
+      { "id": "GitHub.GitHubDesktop",                  "name": "GitHub Desktop",      "icon": "🐙" },
+      { "id": "Notepad++.Notepad++",                   "name": "Notepad++",           "icon": "📝" },
+      { "id": "SublimeHQ.SublimeText.4",               "name": "Sublime Text",        "icon": "✨" },
+      { "id": "Python.Python.3.11",                    "name": "Python",              "icon": "🐍" },
+      { "id": "OpenJS.NodeJS",                         "name": "Node.js",             "icon": "🟢" },
+      { "id": "JetBrains.IntelliJIDEA.Community",      "name": "IntelliJ IDEA",       "icon": "🧠" },
+      { "id": "Microsoft.VisualStudio.2022.Community", "name": "Visual Studio 2022",  "icon": "🔷" },
+      { "id": "JetBrains.PyCharm.Community",           "name": "PyCharm",             "icon": "🐍" },
+      { "id": "Oracle.JDK.17",                         "name": "Java JDK",            "icon": "☕" },
+      { "id": "Microsoft.DotNet.SDK.8",                "name": ".NET SDK",            "icon": "💠" }
+    ],
+    "Developer Tools": [
+      { "id": "Postman.Postman",                       "name": "Postman",                "icon": "📮" },
+      { "id": "WinSCP.WinSCP",                         "name": "WinSCP",                 "icon": "📁" },
+      { "id": "PuTTY.PuTTY",                           "name": "PuTTY",                  "icon": "💻" },
+      { "id": "FileZilla.FileZilla",                   "name": "FileZilla",              "icon": "🗂️" },
+      { "id": "Docker.DockerDesktop",                  "name": "Docker Desktop",         "icon": "🐳" },
+      { "id": "Microsoft.WindowsTerminal",             "name": "Windows Terminal",       "icon": "⌨️" },
+      { "id": "Insomnia.Insomnia",                     "name": "Insomnia",               "icon": "😴" },
+      { "id": "MongoDB.Compass",                       "name": "MongoDB Compass",        "icon": "🍃" },
+      { "id": "DBBrowserForSQLite.DBBrowserForSQLite", "name": "DB Browser for SQLite",  "icon": "💾" }
+    ],
+    "Communication": [
+      { "id": "Telegram.TelegramDesktop", "name": "Telegram",         "icon": "✈️" },
+      { "id": "WhatsApp.WhatsApp",        "name": "WhatsApp",         "icon": "💬" },
+      { "id": "Zoom.Zoom",                "name": "Zoom",             "icon": "📹" },
+      { "id": "Microsoft.Teams",          "name": "Microsoft Teams",  "icon": "👥" },
+      { "id": "SlackTechnologies.Slack",  "name": "Slack",            "icon": "💼" },
+      { "id": "Discord.Discord",          "name": "Discord",          "icon": "🎮" },
+      { "id": "Signal.Signal",            "name": "Signal",           "icon": "🔐" },
+      { "id": "Skype.Skype",              "name": "Skype",            "icon": "📞" },
+      { "id": "Viber.Viber",              "name": "Viber",            "icon": "💜" }
+    ],
+    "Media": [
+      { "id": "VideoLAN.VLC",                "name": "VLC",          "icon": "🎥" },
+      { "id": "Spotify.Spotify",             "name": "Spotify",      "icon": "🎵" },
+      { "id": "GIMP.GIMP",                   "name": "GIMP",         "icon": "🎨" },
+      { "id": "Audacity.Audacity",           "name": "Audacity",     "icon": "🎙️" },
+      { "id": "OBSProject.OBSStudio",        "name": "OBS Studio",   "icon": "📺" },
+      { "id": "Adobe.Acrobat.Reader.64-bit", "name": "Adobe Reader", "icon": "📄" },
+      { "id": "Blender.Blender",             "name": "Blender",      "icon": "🎬" },
+      { "id": "Krita.Krita",                 "name": "Krita",        "icon": "🖌️" },
+      { "id": "Handbrake.Handbrake",         "name": "HandBrake",    "icon": "🎞️" },
+      { "id": "SumatraPDF.SumatraPDF",       "name": "Sumatra PDF",  "icon": "📚" }
+    ],
+    "Gaming": [
+      { "id": "Valve.Steam",                    "name": "Steam",            "icon": "🎮" },
+      { "id": "EpicGames.EpicGamesLauncher",    "name": "Epic Games",       "icon": "🎯" },
+      { "id": "GOG.Galaxy",                     "name": "GOG Galaxy",       "icon": "🌌" },
+      { "id": "Ubisoft.Connect",                "name": "Ubisoft Connect",  "icon": "🔵" },
+      { "id": "ElectronicArts.EADesktop",       "name": "EA App",           "icon": "⚽" },
+      { "id": "Playnite.Playnite",              "name": "Playnite",         "icon": "🎲" },
+      { "id": "Blizzard.BattleNet",             "name": "Battle.net",       "icon": "❄️" }
+    ],
+    "Security": [
+      { "id": "Malwarebytes.Malwarebytes",  "name": "Malwarebytes",   "icon": "🛡️" },
+      { "id": "Bitwarden.Bitwarden",        "name": "Bitwarden",      "icon": "🔐" },
+      { "id": "KeePassXCTeam.KeePassXC",    "name": "KeePassXC",      "icon": "🔑" },
+      { "id": "VeraCrypt.VeraCrypt",        "name": "VeraCrypt",      "icon": "🔐" },
+      { "id": "ESET.EndpointAntivirus",     "name": "ESET Antivirus", "icon": "🦠" }
+    ],
+    "Compression": [
+      { "id": "7zip.7zip",           "name": "7-Zip",    "icon": "📦" },
+      { "id": "RARLab.WinRAR",       "name": "WinRAR",   "icon": "📚" },
+      { "id": "PeaZip.PeaZip",       "name": "PeaZip",   "icon": "📦" },
+      { "id": "Bandisoft.Bandizip",   "name": "Bandizip", "icon": "📦" }
+    ],
+    "Utilities": [
+      { "id": "voidtools.Everything",              "name": "Everything",       "icon": "🔍" },
+      { "id": "Microsoft.PowerToys",               "name": "PowerToys",        "icon": "⚡" },
+      { "id": "ShareX.ShareX",                     "name": "ShareX",           "icon": "📸" },
+      { "id": "CPUID.CPU-Z",                       "name": "CPU-Z",            "icon": "🖥️" },
+      { "id": "TechPowerUp.GPU-Z",                 "name": "GPU-Z",            "icon": "🎮" },
+      { "id": "CrystalDewWorld.CrystalDiskInfo",   "name": "CrystalDiskInfo",  "icon": "💾" },
+      { "id": "REALiX.HWiNFO",                    "name": "HWiNFO",           "icon": "📊" },
+      { "id": "RevoUninstaller.RevoUninstaller",   "name": "Revo Uninstaller", "icon": "🗑️" },
+      { "id": "Rufus.Rufus",                       "name": "Rufus",            "icon": "💿" },
+      { "id": "AutoHotkey.AutoHotkey",             "name": "AutoHotkey",       "icon": "⌨️" }
+    ],
+    "Office & Productivity": [
+      { "id": "Microsoft.Office",     "name": "Microsoft Office", "icon": "📊" },
+      { "id": "LibreOffice.LibreOffice","name": "LibreOffice",    "icon": "📝" },
+      { "id": "Notion.Notion",        "name": "Notion",           "icon": "📔" },
+      { "id": "Obsidian.Obsidian",    "name": "Obsidian",         "icon": "🔮" },
+      { "id": "Evernote.Evernote",    "name": "Evernote",         "icon": "🐘" },
+      { "id": "Todoist.Todoist",      "name": "Todoist",          "icon": "✅" },
+      { "id": "Joplin.Joplin",        "name": "Joplin",           "icon": "📓" }
+    ],
+    "Cloud Storage": [
+      { "id": "Dropbox.Dropbox",      "name": "Dropbox",      "icon": "📦" },
+      { "id": "Google.Drive",         "name": "Google Drive", "icon": "☁️" },
+      { "id": "Microsoft.OneDrive",   "name": "OneDrive",     "icon": "☁️" },
+      { "id": "Mega.MEGASync",        "name": "MEGA",         "icon": "🔐" },
+      { "id": "pCloudAG.pCloud",      "name": "pCloud",       "icon": "☁️" }
+    ],
+    "VPN & Privacy": [
+      { "id": "NordSecurity.NordVPN",        "name": "NordVPN",    "icon": "🔒" },
+      { "id": "ProtonVPN.ProtonVPN",         "name": "ProtonVPN",  "icon": "🛡️" },
+      { "id": "Tailscale.Tailscale",         "name": "Tailscale",  "icon": "🔗" },
+      { "id": "OpenVPNTechnologies.OpenVPN", "name": "OpenVPN",    "icon": "🔓" },
+      { "id": "WireGuard.WireGuard",         "name": "WireGuard",  "icon": "🔐" },
+      { "id": "Mullvad.Mullvad",             "name": "Mullvad VPN","icon": "🦡" }
+    ],
+    "AI Tools": [
+      { "id": "Anthropic.Claude",                     "name": "Claude",              "icon": "🤖", "isNew": true },
+      { "id": "OpenAI.ChatGPT",                       "name": "ChatGPT",             "icon": "💬", "isNew": true },
+      { "id": "Microsoft.Copilot",                    "name": "Microsoft Copilot",   "icon": "🪟", "isNew": true },
+      { "id": "LocalAI.LMStudio",                     "name": "LM Studio",           "icon": "🧠", "isNew": true },
+      { "id": "Mozilla.llamafile",                    "name": "llamafile",           "icon": "🦙", "isNew": true },
+      { "id": "Ollama.Ollama",                        "name": "Ollama",              "icon": "🦙", "isNew": true },
+      { "id": "Stability.DiffusionUI",                "name": "Stable Diffusion UI", "icon": "🎨", "isNew": true },
+      { "id": "AUTOMATIC1111.stable-diffusion-webui", "name": "SD WebUI",            "icon": "🖼️", "isNew": true },
+      { "id": "PromtEngineer.Jan",                    "name": "Jan",                 "icon": "🤖", "isNew": true },
+      { "id": "GPT4All.GPT4All",                      "name": "GPT4All",             "icon": "🧩", "isNew": true }
+    ],
+    "Design": [
+      { "id": "Figma.Figma",         "name": "Figma",                "icon": "🎨", "isNew": true },
+      { "id": "Adobe.CreativeCloud", "name": "Adobe Creative Cloud", "icon": "🌈", "isNew": true },
+      { "id": "Inkscape.Inkscape",   "name": "Inkscape",             "icon": "✏️", "isNew": true },
+      { "id": "Krita.Krita",         "name": "Krita",                "icon": "🖌️", "isNew": true },
+      { "id": "Canva.Canva",         "name": "Canva",                "icon": "🖌️", "isNew": true }
+    ]
+  },
+  "changelog": [
+    {
+      "version": "1.3.0",
+      "date": "2026-02-20",
+      "tag": "Latest",
+      "tagColor": "#4ade80",
+      "tagBg": "rgba(34,197,94,0.12)",
+      "tagBorder": "rgba(34,197,94,0.3)",
+      "changes": [
+        { "type": "new",  "text": "Added AI Tools category with 10 apps (Claude, ChatGPT, Ollama, LM Studio…)" },
+        { "type": "new",  "text": "Added Design category with 5 apps (Figma, Canva, Inkscape…)" },
+        { "type": "new",  "text": "New Apps section on the home page with glowing badge for recently added apps" },
+        { "type": "new",  "text": "Install history feed on the home page — tracks installs, updates and removals" },
+        { "type": "fix",  "text": "Update Selected now shows a confirmation dialog before running" },
+        { "type": "fix",  "text": "Add to Queue button redesigned to be visually distinct and clearly clickable" },
+        { "type": "impr", "text": "Hover glow effect added to Install and Queue buttons across all views" },
+        { "type": "impr", "text": "Home page fully redesigned — removed hero banner, added real dashboard" }
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-01-10",
+      "tag": null,
+      "changes": [
+        { "type": "new",  "text": "Added VPN & Privacy category (NordVPN, ProtonVPN, WireGuard, Mullvad, Tailscale)" },
+        { "type": "new",  "text": "Expanded Gaming category with Playnite and Battle.net" },
+        { "type": "new",  "text": "Batch update confirmation modal before updating all apps at once" },
+        { "type": "fix",  "text": "Fixed install queue not clearing after a successful batch install" },
+        { "type": "impr", "text": "Package manager status shown on the home dashboard" }
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "date": "2025-12-01",
+      "tag": null,
+      "changes": [
+        { "type": "new",  "text": "Added Security category (Bitwarden, KeePassXC, Malwarebytes, VeraCrypt)" },
+        { "type": "new",  "text": "Expanded Office & Productivity with Obsidian, Notion and Todoist" },
+        { "type": "new",  "text": "Install queue save and load from JSON file" },
+        { "type": "impr", "text": "Sidebar navigation badges now update in real time" }
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2025-11-01",
+      "tag": "Initial",
+      "tagColor": "#60a5fa",
+      "tagBg": "rgba(59,130,246,0.12)",
+      "tagBorder": "rgba(59,130,246,0.3)",
+      "changes": [
+        { "type": "new", "text": "First release of PackHub — universal Windows package manager" },
+        { "type": "new", "text": "Browse and install apps via winget across 10 categories" },
+        { "type": "new", "text": "Install queue with batch install support" },
+        { "type": "new", "text": "Software update scanner and one-click updater" },
+        { "type": "new", "text": "Installed apps viewer with uninstall and export" },
+        { "type": "new", "text": "Settings with notifications, startup and tray options" }
+      ]
+    }
+  ]
+}
