@@ -1,21 +1,19 @@
-# PackHub App Catalog
+# App Catalog
 
-This repository holds the **app catalog** for [PackHub](https://github.com/YOUR_USERNAME/YOUR_PACKHUB_REPO) — a universal Windows package manager.
-
-The catalog is a single JSON file (`apps.json`) that is fetched by the PackHub app at runtime. This means the app list can be updated **without releasing a new version** of the app.
+This repository holds the **app catalog** for the package manager app. It is a single JSON file (`apps.json`) fetched at runtime, so the app list can be updated **without releasing a new version** of the app.
 
 ---
 
 ## How It Works
 
-Every time PackHub launches, it fetches this file directly from GitHub:
+Every time the app launches, it fetches this file directly from GitHub:
 
 ```
 https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/apps.json
 ```
 
 - If online → always gets the latest version
-- If offline → uses the last cached version from AppData
+- If offline → uses the last cached version stored locally
 - The app compares versions and only updates the local cache when something changed
 
 ---
@@ -24,7 +22,7 @@ https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/apps.json
 
 ```json
 {
-  "version": "1.4.0",
+  "version": "1.0.0",
   "updatedAt": "2026-02-20",
   "categories": {
     "Category Name": [
@@ -47,8 +45,8 @@ https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/apps.json
 
 | Field | Required | Description |
 |---|---|---|
-| `id` | ✅ | Winget package ID — must be exact (e.g. `Google.Chrome`) |
-| `name` | ✅ | Display name shown in the PackHub UI |
+| `id` | ✅ | Winget package ID — must be exact |
+| `name` | ✅ | Display name shown in the UI |
 | `icon` | ✅ | Emoji shown next to the app |
 | `isNew` | ❌ | Set to `true` to feature the app in the **New Apps** section |
 
@@ -85,11 +83,11 @@ winget search <app name>
 
 Example:
 ```
-> winget search obsidian
+> winget search testapp
 
-Name      Id                Version
---------------------------------------
-Obsidian  Obsidian.Obsidian  1.5.3
+Name     Id                  Version
+---------------------------------------
+TestApp  Publisher.TestApp   1.0.0
 ```
 
 Use the value from the **Id** column.
@@ -99,13 +97,13 @@ Use the value from the **Id** column.
 Pick the right category and add your entry:
 
 ```json
-{ "id": "Obsidian.Obsidian", "name": "Obsidian", "icon": "🔮" }
+{ "id": "Publisher.TestApp", "name": "Test App", "icon": "🧪" }
 ```
 
 To feature it in the New Apps section, add `"isNew": true`:
 
 ```json
-{ "id": "Obsidian.Obsidian", "name": "Obsidian", "icon": "🔮", "isNew": true }
+{ "id": "Publisher.TestApp", "name": "Test App", "icon": "🧪", "isNew": true }
 ```
 
 ### 3. Bump the version
@@ -113,7 +111,7 @@ To feature it in the New Apps section, add `"isNew": true`:
 Always increment the `version` field when making changes:
 
 ```json
-"version": "1.4.0"  →  "version": "1.5.0"
+"version": "1.0.0"  →  "version": "1.1.0"
 ```
 
 ### 4. Update the date
@@ -124,7 +122,7 @@ Always increment the `version` field when making changes:
 
 ### 5. Push to GitHub
 
-The PackHub app will pick up the changes automatically on next launch. No rebuild needed.
+The app will pick up the changes automatically on next launch. No rebuild needed.
 
 ---
 
@@ -133,17 +131,5 @@ The PackHub app will pick up the changes automatically on next launch. No rebuil
 Once an app is no longer new, remove the `isNew` flag (or set it to `false`) and bump the version:
 
 ```json
-{ "id": "Obsidian.Obsidian", "name": "Obsidian", "icon": "🔮" }
+{ "id": "Publisher.TestApp", "name": "Test App", "icon": "🧪" }
 ```
-
----
-
-## Version History
-
-| Version | Date | Changes |
-|---|---|---|
-| `1.4.0` | 2026-02-20 | Added Zen Browser, Thorium, Rust, Go, Flow Launcher |
-| `1.3.0` | 2026-02-20 | Added AI Tools and Design categories |
-| `1.2.0` | 2026-01-10 | Added VPN & Privacy category, expanded Gaming |
-| `1.1.0` | 2025-12-01 | Added Security category, expanded Office & Productivity |
-| `1.0.0` | 2025-11-01 | Initial catalog release |
