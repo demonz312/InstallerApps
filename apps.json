@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0",
+  "version": "1.3.0",
   "updatedAt": "2026-02-20",
   "categories": {
     "Browsers": [
@@ -10,9 +10,7 @@
       { "id": "Opera.Opera",         "name": "Opera",           "icon": "🎭" },
       { "id": "Vivaldi.Vivaldi",     "name": "Vivaldi",         "icon": "🎨" },
       { "id": "Tor.TorBrowser",      "name": "Tor Browser",     "icon": "🔒" },
-      { "id": "LibreWolf.LibreWolf", "name": "LibreWolf",       "icon": "🐺" },
-      { "id": "Zen-Team.Zen-Browser",  "name": "Zen Browser",   "icon": "🧘", "isNew": true },
-      { "id": "Alex313031.Thorium",    "name": "Thorium",       "icon": "⚡", "isNew": true }
+      { "id": "LibreWolf.LibreWolf", "name": "LibreWolf",       "icon": "🐺" }
     ],
     "Development": [
       { "id": "Microsoft.VisualStudioCode",            "name": "Visual Studio Code",  "icon": "💻" },
@@ -26,9 +24,7 @@
       { "id": "Microsoft.VisualStudio.2022.Community", "name": "Visual Studio 2022",  "icon": "🔷" },
       { "id": "JetBrains.PyCharm.Community",           "name": "PyCharm",             "icon": "🐍" },
       { "id": "Oracle.JDK.17",                         "name": "Java JDK",            "icon": "☕" },
-      { "id": "Microsoft.DotNet.SDK.8",                "name": ".NET SDK",            "icon": "💠" },
-      { "id": "Rustlang.Rust.MSVC",                    "name": "Rust",                "icon": "🦀", "isNew": true },
-      { "id": "GoLang.Go",                             "name": "Go",                  "icon": "🐹", "isNew": true }
+      { "id": "Microsoft.DotNet.SDK.8",                "name": ".NET SDK",            "icon": "💠" }
     ],
     "Developer Tools": [
       { "id": "Postman.Postman",                       "name": "Postman",                "icon": "📮" },
@@ -87,7 +83,6 @@
       { "id": "Bandisoft.Bandizip",   "name": "Bandizip", "icon": "📦" }
     ],
     "Utilities": [
-      { "id": "Flow-Launcher.Flow-Launcher",       "name": "Flow Launcher",    "icon": "🚀", "isNew": true },
       { "id": "voidtools.Everything",              "name": "Everything",       "icon": "🔍" },
       { "id": "Microsoft.PowerToys",               "name": "PowerToys",        "icon": "⚡" },
       { "id": "ShareX.ShareX",                     "name": "ShareX",           "icon": "📸" },
