@@ -141,29 +141,6 @@
       { "id": "Inkscape.Inkscape",   "name": "Inkscape",             "icon": "✏️", "isNew": true },
       { "id": "Krita.Krita",         "name": "Krita",                "icon": "🖌️", "isNew": true },
       { "id": "Canva.Canva",         "name": "Canva",                "icon": "🖌️", "isNew": true }
-    ],
-    "npm Tools": [
-      { "id": "@anthropic-ai/claude-code", "name": "Claude Code",    "icon": "🤖", "manager": "npm", "isNew": true },
-      { "id": "@google/gemini-cli",        "name": "Gemini CLI",     "icon": "✨", "manager": "npm", "isNew": true },
-      { "id": "typescript",                "name": "TypeScript",      "icon": "📘", "manager": "npm" },
-      { "id": "ts-node",                   "name": "ts-node",         "icon": "🔷", "manager": "npm" },
-      { "id": "nodemon",                   "name": "Nodemon",         "icon": "🔄", "manager": "npm" },
-      { "id": "yarn",                      "name": "Yarn",            "icon": "🧶", "manager": "npm" },
-      { "id": "pnpm",                      "name": "pnpm",            "icon": "📦", "manager": "npm" },
-      { "id": "eslint",                    "name": "ESLint",          "icon": "🔍", "manager": "npm" },
-      { "id": "prettier",                  "name": "Prettier",        "icon": "✨", "manager": "npm" },
-      { "id": "serve",                     "name": "Serve",           "icon": "🌐", "manager": "npm" },
-      { "id": "http-server",               "name": "http-server",     "icon": "🖥️", "manager": "npm" },
-      { "id": "pm2",                       "name": "PM2",             "icon": "⚙️", "manager": "npm" },
-      { "id": "nx",                        "name": "Nx",              "icon": "🏗️", "manager": "npm" },
-      { "id": "vite",                      "name": "Vite",            "icon": "⚡", "manager": "npm" },
-      { "id": "@angular/cli",              "name": "Angular CLI",     "icon": "🅰️", "manager": "npm" },
-      { "id": "jest",                      "name": "Jest",            "icon": "🃏", "manager": "npm" },
-      { "id": "vercel",                    "name": "Vercel CLI",      "icon": "▲",  "manager": "npm" },
-      { "id": "netlify-cli",               "name": "Netlify CLI",     "icon": "🌿", "manager": "npm" },
-      { "id": "firebase-tools",            "name": "Firebase CLI",    "icon": "🔥", "manager": "npm" },
-      { "id": "rimraf",                    "name": "rimraf",          "icon": "🗑️", "manager": "npm" },
-      { "id": "concurrently",              "name": "Concurrently",    "icon": "🔀", "manager": "npm" }
     ]
   },
   "homepageUrls": {
@@ -277,7 +254,8 @@
     "Figma.Figma":                            "https://www.figma.com",
     "Adobe.CreativeCloud":                    "https://www.adobe.com/creativecloud",
     "Inkscape.Inkscape":                      "https://inkscape.org",
-    "Canva.Canva":                            "https://www.canva.com"
+    "Canva.Canva":                            "https://www.canva.com",
+    "@google/gemini-cli":                     "https://geminicli.com/"
   },
   "changelog": [
     {
