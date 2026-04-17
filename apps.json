@@ -1,6 +1,6 @@
 {
-  "version": "1.4.1",
-  "updatedAt": "2026-02-20",
+  "version": "1.5.0",
+  "updatedAt": "2026-04-17",
   "categories": {
     "Browsers": [
       { "id": "Google.Chrome",       "name": "Google Chrome",   "icon": "🌐" },
@@ -123,6 +123,7 @@
     ],
     "AI Tools": [
       { "id": "Anthropic.Claude",                     "name": "Claude",              "icon": "🤖", "isNew": true },
+      { "id": "Anthropic.ClaudeCode",                 "name": "Claude Code",         "icon": "💻", "isNew": true },
       { "id": "OpenAI.ChatGPT",                       "name": "ChatGPT",             "icon": "💬", "isNew": true },
       { "id": "Microsoft.Copilot",                    "name": "Microsoft Copilot",   "icon": "🪟", "isNew": true },
       { "id": "LocalAI.LMStudio",                     "name": "LM Studio",           "icon": "🧠", "isNew": true },
@@ -131,7 +132,8 @@
       { "id": "Stability.DiffusionUI",                "name": "Stable Diffusion UI", "icon": "🎨", "isNew": true },
       { "id": "AUTOMATIC1111.stable-diffusion-webui", "name": "SD WebUI",            "icon": "🖼️", "isNew": true },
       { "id": "PromtEngineer.Jan",                    "name": "Jan",                 "icon": "🤖", "isNew": true },
-      { "id": "GPT4All.GPT4All",                      "name": "GPT4All",             "icon": "🧩", "isNew": true }
+      { "id": "GPT4All.GPT4All",                      "name": "GPT4All",             "icon": "🧩", "isNew": true },
+      { "id": "@google/gemini-cli",                   "name": "Gemini CLI",          "icon": "✨", "manager": "npm", "isNew": true }
     ],
     "Design": [
       { "id": "Figma.Figma",         "name": "Figma",                "icon": "🎨", "isNew": true },
@@ -143,9 +145,21 @@
   },
   "changelog": [
     {
+      "version": "1.5.0",
+      "date": "2026-04-17",
+      "tag": "Latest",
+      "tagColor": "#4ade80",
+      "tagBg": "rgba(34,197,94,0.12)",
+      "tagBorder": "rgba(34,197,94,0.3)",
+      "changes": [
+        { "type": "new",  "text": "Gemini CLI (@google/gemini-cli) added via npm" },
+        { "type": "new",  "text": "Added Claude Code (Anthropic.ClaudeCode) to AI Tools via winget" },
+      ]
+    },
+    {
       "version": "1.3.0",
       "date": "2026-02-20",
-      "tag": "Latest",
+      "tag": null,
       "tagColor": "#4ade80",
       "tagBg": "rgba(34,197,94,0.12)",
       "tagBorder": "rgba(34,197,94,0.3)",
